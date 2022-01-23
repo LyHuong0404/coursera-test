@@ -1,0 +1,57 @@
+body{
+	margin-bottom: 50px;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color: #A9A9A9;
+	border-radius: 0; /*ko co vien tron*/
+	border: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #61122f;
+}
+.navbar-header div{
+	color: black;
+	font-weight: bold;
+	font-size: 40px;
+}
+.navbar-brand h1{
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;  
+	margin-top: 0;
+	margin-bottom: 10px;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-header div:hover{
+	text-decoration: none;
+}
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+#nav-list{
+	background-color: white;
+}
+#nav-list li{
+	text-align: center;
+}
+.table{
+	background-color: #A9A9A9;
+	margin: 10px 10px 10px 10px;
+	border: 2px solid black;
+	font-weight: bold;
+}
+.table p{
+	padding: 10px 10px 10px 10px;
+}
+.table div{
+	font-size: 20px;
+}
+h2{
+	margin-top: 5px;
+	font-weight: bold;
+}
