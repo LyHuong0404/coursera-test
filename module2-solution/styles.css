@@ -1,0 +1,75 @@
+*{
+		box-sizing: border-box;
+	}
+	.row{
+		width: 100%;
+	}
+	h1{
+		text-align: center;
+		font-size: 200%;
+		font-weight: bold;
+		margin-bottom: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.table{
+		border: 1px solid black;
+		margin: 10px 10px 10px 10px;
+		background-color: #A0A0A0;
+	}
+	.dish-1,.dish-2,.dish-3{
+		border: 1px solid black;
+		text-align: center;
+		width: 140px;
+		font-size: 150%;
+		font-weight: bold;
+		float: right;
+		display: inline;
+		padding: 5px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	p{
+		padding: 10px 10px 0px 10px;
+		color: black;
+		font-size: 125%;
+		font-weight: bold;
+		clear: right;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.dish-1{
+		background-color: #D59898;
+	}
+	.dish-2{
+		background-color: #C14543;
+		color: white;
+	}
+	.dish-3{
+		background-color: #F0E68C;
+	}
+	@media(min-width: 992px){
+		.col-lg-4{
+			float: left;
+		}
+		.col-lg-4{
+			width: 33.33%;
+		}
+	}
+	@media(min-width: 768px) and (max-width: 991px){
+		.col-md-6,.col-md-12{
+			float: left;
+		}
+		.col-md-6{
+			width: 50%;
+		}
+		.col-md-12{
+			width: 100%;
+		}
+	}
+	@media(max-width: 767px){
+		.col-sm-12{
+			float: left;
+		}
+		.col-sm-12{
+			width: 100%;
+		}
+	}
+}
